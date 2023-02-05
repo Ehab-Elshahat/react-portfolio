@@ -80,46 +80,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <footer>
-        <div className="container d-flex justify-content-between align-items-center">
-          <div className="social">
-            <ul className="list-unstyled d-flex">
-              <li>
-                <a
-                  href="https://www.facebook.com/ehap.hoba.1"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <i className="fa-brands fa-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/feed/"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <i className="fa-brands fa-linkedin-in"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/Ehab-Elshahat?tab=repositories"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="fa-brands fa-github"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <p className="copyright">
-            <i className="fa fa-copyright" aria-hidden="true"></i> 2023
-            copyright
-            <span> Ehab Elshahat </span> All right reserved
-          </p>
-        </div>
-      </footer>
+      
     </motion.div>
   );
 }
