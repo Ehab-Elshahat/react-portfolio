@@ -1,0 +1,12 @@
+.skills {
+  padding-top: 80px;
+}
+@media (max-width:767px) {
+  .skills {
+    padding-top: 20px;
+  }
+  .skills-title {
+    margin-top: 90px!important;
+    margin-bottom: 40px!important;
+  }
+}

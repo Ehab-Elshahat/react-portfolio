@@ -1,0 +1,164 @@
+.about {
+  background-color: #000;
+  height: 100vh;
+}
+.about-left {
+  width: 50%;
+ 
+}
+@media (max-width:1199px) {
+  .container {
+    flex-direction: column;
+  }
+  .about-left {
+    margin-top: 80px;
+    width: 100%;
+  }
+}
+
+
+@media(max-width:767px) {
+  .about-left {
+    width: 100%;
+  }
+}
+.left-img {
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 5px solid #ff9301;
+  overflow: hidden;
+  
+}
+
+@media(max-width:767px) {
+  .left-img {
+    margin-top: 130px;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.left-img img {
+  width: 100%;
+
+}
+
+.about-left .about-social {
+
+  width: 450px;
+ 
+  text-align: center;
+  position: relative;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  margin-left: 50%;
+}
+
+.about-left .about-social a {
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #000;
+  border: 1px solid #ff9301;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.about-left a.face{
+ top: -41px;
+ left: 120px;
+  
+}
+.about-left a.github {
+  left: 210px;
+  top: -22px;
+}
+.about-left a.linkedin {
+  top: -44px;
+  right: 110px;
+}
+.left-desc {
+  text-align: center;
+  padding-top: 50px;
+}
+.left-desc h3 {
+  color: #ffffffcc;
+  font-size: 20px;
+}
+.left-desc h2 {
+  color: var(--Text-Light);
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.about-right  {
+  width: 50%;
+
+}
+
+
+
+@media(max-width: 1199px) {
+ .about-right {
+  width: 100%;
+  margin-top: 50px;
+  padding: 0 40px;
+ } 
+}
+.about-right h2 {
+  font-weight: bolder;
+  margin-bottom: 30px;
+  width: fit-content;
+
+}
+.about-right p, 
+.about-right li {
+  color: #ffffffcc;
+}
+.about-right p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+.contact-info {
+  display: flex;
+ 
+}
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 100px;
+}
+@media(max-width: 1199px) {
+  .contact-info  {
+    flex-direction: column;
+    
+  }
+}
+.contact-info ul li {
+  margin-bottom: 10px;
+}
+.contact-info ul li span {
+  color: #fff;
+  margin-right: 5px;
+  font-weight: bold;
+}

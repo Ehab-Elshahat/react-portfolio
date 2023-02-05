@@ -1,0 +1,113 @@
+aside {
+  background: var(--Dark);
+  
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 80px;
+  color: var(--Text-light);
+  border-right: 1px solid #ffffff1a;
+}
+@media (max-width: 767px) {
+  aside{
+    height: 80px;
+    width: 100%;
+   z-index: 1000;
+    display: flex;
+  }
+}
+aside .logo .h2 {
+  background: var(--Orang);
+  color: var(--Text-Light);
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  width: 80px;
+  cursor: pointer;
+}
+.aside-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+}
+@media (max-width: 767px) {
+  .aside-links {
+    margin-top: 0;
+
+    margin: auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+.aside-links .link {
+  display: block;
+  color: var(--Text-Light);
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #ffffff1a;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+@media (max-width: 767px) {
+  .aside-links .link {
+    padding: 5px;
+    border-bottom: none;
+  }
+}
+.aside-links .link.active,
+.aside-links .link:hover {
+  color: var(--Orang);
+  
+}
+.aside-links .link i {
+  position: relative;
+  font-size: 30px;
+  cursor: pointer;
+}
+.aside-links .link span {
+  position: absolute;
+  font-size: 15px;
+  padding: 3px 6px;
+  background-color: #353536;
+  color:var(--Text-Light);
+  left: 94px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  display: none;
+}
+
+.aside-links .link span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -28px;
+  border-width: 14px;
+  border-style: solid;
+  border-color: transparent #353536 transparent transparent;
+}
+
+.aside-links .link:hover > span {
+  display: block;
+}
+@media (max-width: 767px){
+  .aside-links .link:hover > span  {
+    display: none;
+  }
+}
