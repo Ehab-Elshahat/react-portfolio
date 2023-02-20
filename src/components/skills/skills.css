@@ -1,12 +1,33 @@
-.skills {
-  padding-top: 80px;
+.skills-title {
+  width: max-content;
+  margin: auto;
 }
-@media (max-width:767px) {
-  .skills {
-    padding-top: 20px;
-  }
-  .skills-title {
-    margin-top: 90px!important;
-    margin-bottom: 40px!important;
-  }
+.skills {
+  padding-top: 40px;
+}
+.skill-box {
+  background-color: #ffffff1a;
+  height: 100%;
+  transition: all .3s ease-in-out ;
+  -webkit-transition: all .3s ease-in-out ;
+  -moz-transition: all .3s ease-in-out ;
+  -ms-transition: all .3s ease-in-out ;
+  -o-transition: all .3s ease-in-out ;
+}
+
+.skill-box:hover {
+  transform: scale(1.05) ;
+  -webkit-transform: scale(1.05) ;
+  -moz-transform: scale(1.05) ;
+  -ms-transform: scale(1.05) ;
+  -o-transform: scale(1.05) ;
+  background-color: rgb(255 255 255 / 20%);
+}
+
+.skill-title {
+color: var(--Orang);
+}
+.skill-desc p {
+ color: var(--Text-Light);
+  font-size: 15px;
 }

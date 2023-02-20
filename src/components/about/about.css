@@ -1,11 +1,7 @@
 .about {
   background-color: #000;
-  height: 100vh;
 }
-.about-left {
-  width: 50%;
- 
-}
+
 @media (max-width:1199px) {
   .container {
     flex-direction: column;
@@ -128,7 +124,6 @@
 .about-right h2 {
   font-weight: bolder;
   margin-bottom: 30px;
-  width: fit-content;
 
 }
 .about-right p, 
