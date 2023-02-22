@@ -47,7 +47,7 @@ const Home = () => {
                 </p>
                 <a
                   className="download"
-                  href="../../assets/img/1-23 CV.pdf"
+                  href="../../assets/img/Ehab_elshahat-CV.pdf"
                   download
                 >
                   Download CV
