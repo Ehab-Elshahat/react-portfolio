@@ -34,6 +34,12 @@ header {
   overflow: hidden;
 }
 
+@media(max-width:991px) {
+  header{
+    height: auto;
+  }
+}
+
 .header-img {
 
   margin-right: 50px;
